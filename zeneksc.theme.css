@@ -249,59 +249,28 @@ color:rgb(255, 253, 253)!important;
     position: relative;
     right: -74%;
 }
-.winButtonMinMax-PBQ2gm[aria-label="Minimize"]:hover {
-    transform: rotate(45deg)!important;
-    color: rgb(0, 255, 0)!important;
-    background-color:rgb(49, 49, 83)!important;
- border-radius: 100px!important;
+.winButtonMinMax-PBQ2gm:nth-child(4):hover {
+    color: rgb(0, 255, 0);
 }
-.winButtonMinMax-PBQ2gm[aria-label="Maximize"]:hover {
-    transform: rotate(45deg)!important;
-    color: orange!important;
-    background-color:rgb(49, 49, 83)!important;
- border-radius: 100px!important;
+.winButtonMinMax-PBQ2gm:nth-child(3):hover {
+    color: orange;
 }
 .winButton-iRh8-Z:nth-child(2):hover {
-    transform: rotate(45deg)!important;
-    color: rgb(255, 0, 0)!important;
-    background-color:rgb(49, 49, 83)!important;
- border-radius: 100px!important;
+    color: rgb(255, 0, 0);
 }
-.winButtonMinMax-PBQ2gm[aria-label="Minimize"] {
- background-color:rgb(49, 49, 83)!important;
- height: 27px!important;
- right: 14px!important;
- margin-top: -4px!important;
- border-radius: 100px!important;
+.winButtonMinMax-PBQ2gm:nth-child(4) {
+    color:green;
 }
-.winButtonMinMax-PBQ2gm[aria-label="Maximize"] {
- background-color:rgb(49, 49, 83)!important;
- height: 27px!important;
- right: 8px!important;
- margin-top: -4px!important;
- border-radius: 100px!important;
-}
-.titleBar-AC4pGV .winButtonClose-1HsbF- {
- background-color:rgb(49, 49, 83)!important;
- height: 27px!important;
- right: 2px!important;
- margin-top: -4px!important;
- border-radius: 100px!important;
-}
-.winButtonMinMax-PBQ2gm[aria-label="Minimize"]{
-    color:green!important;
-}
-.winButtonMinMax-PBQ2gm[aria-label="Maximize"]{
-    color:rgb(173, 113, 0)!important;
+.winButtonMinMax-PBQ2gm:nth-child(3) {
+    color:rgb(173, 113, 0);
 }
 .winButton-iRh8-Z {
-    height: 9px!important;
-    width: 18px!important;
-    top: 2px!important;
-    right: 2px!important;
-    padding: 0 0px!important;
-    color: #ff5b5b!important;
-    transition: all 200ms ease-out!important;
+    color: #ff5b5b;
+    transition: all 200ms ease-out;
+}
+.winButton-iRh8-Z:hover {
+    background: transparent;
+    transform: rotate(45deg);
 }
 /*Unread */
 .isUnread-3Ef-o9 {
