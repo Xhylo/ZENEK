@@ -98,13 +98,13 @@ display: none;
 }
 .panels-j1Uci_ {
 transition: height 0.5s;
-z-index: 902;
-position: absolute;
-margin-left: px;
-bottom: 46px;
+z-index: 902!important;;
+position: fixed!important;;
+margin-left: -1px!important;;
+bottom: 46px!important;;
 border-radius: 20px !important;
-width: 222px;
-background-color: rgb(49, 49, 82);
+width: 222px!important;;
+background-color: rgb(49, 49, 82)!important;;
 }
 .unreadBar-3t3sYc,
 .animatedContainer-1NSq4T {
