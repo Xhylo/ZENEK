@@ -30,6 +30,10 @@
   --unread-pill: rgb(71, 71, 180)!important;
   --unread-pill-shadow: rgb(255, 255, 255)!important;
 }
+.container-3ayLPN {
+	background-color: rgb(32, 32, 53) !important;
+    overflow:hidden;
+}
 .newMessagesBar-265mhP {
   width: 100%;
   left: 0px;
@@ -179,13 +183,6 @@ width: calc(100% - 260px);
 .message-2qnXI6[role="listitem"] {
 border-radius: 1em;
 }
-.searchResultsWrap-3-pOjs {
-z-index: 903;
-height: calc(100% - 100px);
-position: absolute;
-right: 1em;
-border-radius: 1em;
-}
 .container-3baos1 .noWrap-3jynv6 {
 width: 100px;
 opacity: 1;
@@ -198,11 +195,12 @@ padding-bottom: 0px;
 transition: 0.2;
 }
 .inner-MADQqc {
-  margin-top: 5px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 .channelTextArea-rNsIhG {
   border-radius: 20px;
-  height: 52px;
+  min-height: 53px;
   background-color: transparent;
 }
 .scrollableContainer-2NUZem {
@@ -285,12 +283,10 @@ color:rgb(255, 253, 253)!important;
     margin-left: 2px;
     margin-bottom: 3px;
 }
-/*Shows the server members list*/
-
-.searchResultsWrap-3-pOjs { /*Moves search results back to the right*/
-    position: relative;
-    right: -74%;
+.searchResultsWrap-3-p0js {
+	border-radius:20px;
 }
+/*Shows the server members list*/
 .winButtonMinMax-PBQ2gm:nth-child(4):hover {
     color: rgb(0, 255, 0);
 }
@@ -877,4 +873,7 @@ svg.icon-22AiRD:hover {
     height: 24px!important;
     border-radius: 15px!important;
     margin-right: -9px;
+}
+.container-3ayLPN > * > *:hover {
+    background-color: rgba(95, 118, 202, 0.5) !important;
 }
