@@ -877,3 +877,7 @@ svg.icon-22AiRD:hover {
 .container-3ayLPN > * > *:hover {
     background-color: rgba(95, 118, 202, 0.5) !important;
 }
+#app-mount .customScroller-26gWhv>div {
+  margin: 0px;
+  margin-left: 270px;
+}
